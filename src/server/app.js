@@ -2,7 +2,6 @@
 /*jshint node:true*/
 'use strict';
 
-require('look').start(); // perf output to http://localhost:5959
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
